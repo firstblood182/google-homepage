@@ -1,0 +1,80 @@
+body {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: #7D7676;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+}
+
+ul.upper {
+    padding-top: 10px
+}
+
+ul.lower {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgb(211, 211, 211);
+    background-color: rgb(235, 235, 235);
+}
+
+li.top, li.bottom {
+    float: left;
+    padding: 5px 10px 0 10px;
+    font-size: 9pt;
+}
+
+.righticons {
+    float: right;
+}
+
+.rightlower {
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    left: 33%;
+    top: 18%;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 450px;
+    font-size: 12pt;
+    position: absolute;
+    left: 34%;
+    top: 45%;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(240, 239, 239);
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+}
+
+input[class="leftbutton"] {
+    position: absolute;
+    left: 40%;
+    top: 55%;
+}
+
+input[class="rightbutton"] {
+    position: absolute;
+    left: 55%;
+    top: 55%;
+}
